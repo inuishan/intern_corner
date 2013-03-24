@@ -20,6 +20,9 @@ class User
 		$this->account_type=$account_type;
 		$this->contact_details=$contact_details;
 	}
+	function getUsername(){
+		return $this->username;
+	}
 
 	
 	
